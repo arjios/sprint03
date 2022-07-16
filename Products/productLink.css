@@ -1,0 +1,10 @@
+.product__link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2a7ae4;
+  text-decoration: none;
+}

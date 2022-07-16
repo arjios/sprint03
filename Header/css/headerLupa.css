@@ -1,0 +1,9 @@
+.header__lupa {
+    visibility: visible;
+}
+
+@media only screen and (min-width: 600px) {
+    .header__lupa {
+        visibility: hidden;
+    }
+}

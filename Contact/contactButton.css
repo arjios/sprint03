@@ -1,0 +1,11 @@
+.contact__button {
+  align-items: center;
+  background-color: #2a7ae4;
+  border: none;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  width: 119px;
+}

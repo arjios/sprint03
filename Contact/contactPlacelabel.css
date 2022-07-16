@@ -1,0 +1,12 @@
+.contact__placelabel {
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  color: #a2a2a2;
+  height: 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  width: 100%;
+}

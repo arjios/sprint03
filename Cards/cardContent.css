@@ -1,0 +1,15 @@
+.card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px 2px;
+}
+
+.card__content h3 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #464646;
+  margin-top: 8px;
+}

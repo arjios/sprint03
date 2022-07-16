@@ -1,0 +1,8 @@
+.produuct__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 16px;
+    width: 100%;
+
+}
