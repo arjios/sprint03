@@ -1,0 +1,6 @@
+.session__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 96px 45px 76px 45px;
+}
