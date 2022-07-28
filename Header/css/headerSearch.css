@@ -1,16 +1,22 @@
 .header__search {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
-  background-color: #F5F5F5;
-  border-radius: 20px;
+  margin: 8px 16px;
+  width: 393px;
   height: 40px;
-  width: 272px;
+  background: #F5F5F5;
+  border-radius: 20px;
 }
 
+@media only screen and (max-width: 760px) {
+  .header__search {
+    width: 272px;
+  }
+}
 
-@media only screen and (max-width: 600px) {
-    .header__search {
-        display: none;
-      }
+@media only screen and (max-width: 640px) {
+  .header__search {
+    display: none;
+  }
 }

@@ -1,5 +1,9 @@
 .banner__content {
-    margin: 0 auto;
-    max-width: 1024px;
-    width: 100%;
+    padding-left: 32px;
+}
+
+@media only screen and (max-width: 640px) {
+    .banner__content {
+      display:none
+    }
 }

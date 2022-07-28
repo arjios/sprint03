@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="./Header/css/header.css">
     <link rel="stylesheet" href="./Header/css/headerContainer.css">
     <link rel="stylesheet" href="./Header/css/headerContent.css">
+    <link rel="stylesheet" href="./Header/css/headerLogosearch.css">
     <link rel="stylesheet" href="./Header/css/headerLogo.css">
+    <link rel="stylesheet" href="./Header/css/headerAlura.css">
     <link rel="stylesheet" href="./Header/css/headerAlurageek.css">
+    <link rel="stylesheet" href="./Header/css/headerLink.css">
     <link rel="stylesheet" href="./Header/css/headerButton.css">
     <link rel="stylesheet" href="./Header/css/headerButtonLink.css">
     <link rel="stylesheet" href="./Header/css/headerSearch.css">
@@ -18,6 +21,10 @@
     <link rel="stylesheet" href="./Banner/bannerContainer.css">
     <link rel="stylesheet" href="./Banner/bannerContent.css">
     <link rel="stylesheet" href="./Banner/bannerImage.css">
+    <link rel="stylesheet" href="./Banner/bannerTitle.css">
+    <link rel="stylesheet" href="./Banner/bannerSubtitle.css">
+    <link rel="stylesheet" href="./Banner/bannerButton.css">
+    <link rel="stylesheet" href="./Banner/bannerButtonLink.css">
     <link rel="stylesheet" href="./Products/products.css">
     <link rel="stylesheet" href="./Products/productHeader.css"> 
     <link rel="stylesheet" href="./Products/productCategory.css"> 
@@ -43,39 +50,43 @@
 <body>
     <header class="header">
         <section class="header__container">
-            <div class="header__content">
-                <div class="header__logo">
-                    <img class="header__alurageek" src="./Header/assets/images/gamepad.png" alt="Game Pad">
-                    <img src="./Header/assets/images/alura.png" alt="Alura">
-                    <img src="./Header/assets/images/geek.png" alt="Geek">
+            <nav class="header__content">
+                <div class="header__logosearch">
+                    <div class="header__logo">
+                        <img class="header__alurageek" src="./Header/assets/images/gamepad.png" alt="Game Pad">
+                        <img class="header__alura" src="./Header/assets/images/alura.png" alt="Alura">
+                        <img class="header__alura" src="./Header/assets/images/geek.png" alt="Geek">
+                    </div>
+                    <div class="header__search">
+                        <input class="header__input" type="text" placeholder="O que deseja encontrar?">
+                        <img src="./Header/assets/images/search.png" alt="Lupa Search">    
+                    </div>
                 </div>
-                <div class="header__search">
-                    <input class="header__input" type="text" placeholder="O que deseja encontrar?">
-                    <img src="./Header/assets/images/search.png" alt="Lupa Search">
+                <div class="header__link">
+                    <div class="header__button">
+                        <a class="header__button--link" id="hbutton" href="Login/login.html">Login</a>
+                    </div>
+                    <img class="header__lupa"  src="./Header/assets/images/lupa.png" alt="Lupa">
                 </div>
-                <div class="header__button">
-                    <a class="header__button--link" href="#">Login</a>
-                </div>
-                <img class="header__lupa"  src="./Header/assets/images/lupa.png" alt="Lupa">
-            </div>
+            </nav>
         </section>
-
     </header>
     <section class="banner__container">
         <div class="banner__content">
-            <img class="banner__image" src="./Banner/assets/images/banner-image.png" alt="Banner">
+            <h1 class="banner__title">Dezembro Promocional</h1>
+            <h3 class="banner__subtitle">Produtos selecionados com 33% de desconto</h3>
+            <div class="banner__button">
+                <a class="banner__button--link" id="bbutton" href="Login/login.html">Ver Consoles</a>
+            </div>
         </div>
     </section>
 
     <main class="main__container">
         <section class="products">
-            <div class="product__header">
-                <h2 class="product__category">Star Wars</h2>
-                <a href="#" class="product__link">
-                    Ver Tudo
-                    <img src="./Banner/assets/images/Seta.png" alt="">
-                </a>
-            </div>
+            <a href="#" class="product__link">
+                Ver Tudo
+                <img src="./Banner/assets/images/Seta.png" alt="">
+            </a>
             <div class="card__container">
                 <div class="card__content">
                     <img src="./assets/images/StarWars/Caneca.png" alt="">

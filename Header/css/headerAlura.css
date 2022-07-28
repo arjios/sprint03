@@ -1,0 +1,12 @@
+.header__alura {
+    color: var(--azul-destaque);
+    height: 11px;
+    width: 36px;
+}
+
+@media only screen and (min-width: 640px) {
+    .header__alura {
+      height: 19px;
+      width: 63px;
+    }
+  }

@@ -1,12 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
 
 * {
+    box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
-    box-sizing: border-box;
     margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg-color: #EBEBEB;
+    --input-placeholder: #D4D4D4;
+    --input-bg: #EFEFEF;
+    --texto-destaque: #FFFFFF;
+    --azul-destaque: #2A7AE4;
+    --bg-contato: #EAF2FD;
 }
 
 body {
-    background-color: #F5F5F5;
+    background-color: var(--bg-color);
+}
+
+textarea:focus, input:focus {
+    border: 0 none;
+    box-shadow: 0 0 0 0 ;
+    outline: 0;
+}
+
+input::placeholder, textarea::placeholder {
+    color: var(--input-placeholdedr);
+    padding: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--azul-destaque);
+    font-weight: 800;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    padding: 32px 154px;
+    background-color: var(--texto-destaque);
 }

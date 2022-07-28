@@ -38,7 +38,7 @@
 <body>
     <header class="header">
         <section class="header__container">
-            <div class="header__content">
+            <nav class="header__content">
                 <div class="header__logo">
                     <img class="header__alurageek" src="../Header/assets/images/gamepad.png" alt="Game Pad">
                     <img src="../Header/assets/images/alura.png" alt="Alura">
@@ -48,11 +48,7 @@
                     <input class="header__input" type="text" placeholder="O que deseja encontrar?">
                     <img src="../Header/assets/images/search.png" alt="Lupa Search">
                 </div>
-                <div class="header__button">
-                    <a class="header__button--link" href="#">Login</a>
-                </div>
-                <img class="header__lupa"  src="../Header/assets/images/lupa.png" alt="Lupa">
-            </div>
+            </nav>
         </section>
     </header>
     <main class="main__container">
@@ -63,9 +59,9 @@
                     <label class="contact__title">
                         Iniciar sessão
                     </label>
-                        <input class="contact__input" placeholder="Escreva seu email" type="text"/>
-                        <input class="contact__input" placeholder="Escreva sua senha" type="text"/>
-                    <button type="submit" class="contact__button">
+                        <input class="contact__input" id="email" placeholder="Escreva seu email" type="email"/>
+                        <input class="contact__input" id="pass" placeholder="Escreva sua senha" type="password"/>
+                    <button type="submit" class="contact__button" id="initsession">
                         <label class="contact__label">Enviar</label>
                     </button>
                 </form>
@@ -118,6 +114,6 @@
         <label class="footer__label">Desenvolvido por Antonio Alves</label>
         <label class="footer__label">2022</label>
     </footer>
-    
+    <script src="../js/login.js"></script>
 </body>
 </html>

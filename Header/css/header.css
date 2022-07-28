@@ -1,9 +1,6 @@
 .header {
-    align-items: center;
     background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     height: 72px;
+    padding: 0px;
     width: 100%;
 }
