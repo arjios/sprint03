@@ -6,3 +6,12 @@
   padding: 16px;
   width: 100%;
 }
+
+
+@media only screen and (min-width: 760px) {
+  .products {
+
+    padding: 8px;
+
+  }
+}

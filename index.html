@@ -26,10 +26,13 @@
     <link rel="stylesheet" href="./Banner/bannerButton.css">
     <link rel="stylesheet" href="./Banner/bannerButtonLink.css">
     <link rel="stylesheet" href="./Products/products.css">
-    <link rel="stylesheet" href="./Products/productHeader.css"> 
+    <link rel="stylesheet" href="./Products/productHeader.css">
+    <link rel="stylesheet" href="./Products/productContainer.css"> 
     <link rel="stylesheet" href="./Products/productCategory.css"> 
     <link rel="stylesheet" href="./Products/productLink.css">
+    <link rel="stylesheet" href="./Cards/cards.css">
     <link rel="stylesheet" href="./Cards/cardContainer.css">
+    <link rel="stylesheet" href="./Cards/cardRow.css">
     <link rel="stylesheet" href="./Cards/cardContent.css">
     <link rel="stylesheet" href="./Cards/cardPreco.css">
     <link rel="stylesheet" href="./Alurageek/alurageek.css">
@@ -83,128 +86,239 @@
 
     <main class="main__container">
         <section class="products">
-            <a href="#" class="product__link">
-                Ver Tudo
-                <img src="./Banner/assets/images/Seta.png" alt="">
-            </a>
-            <div class="card__container">
-                <div class="card__content">
-                    <img src="./assets/images/StarWars/Caneca.png" alt="">
-                    <h3>Produto XYZ</h3>
-                    <h4 class="card__preco">R$ 60,00</h4>
+            <div class="product__header">
+                <div class="product__container">
+                    <h1 class="product__category">
+                        Star Wars
+                    </h1>
                     <a href="#" class="product__link">
-                        Ver produto
+                        Ver Tudo
+                        <img src="./Banner/assets/images/Seta.png" alt="">
                     </a>
                 </div>
-                <div class="card__content">
-                    <img src="./assets/images/StarWars/Darth.png" alt="">
-                    <h3>Produto XYZ</h3>
-                    <h4 class="card__preco">R$ 60,00</h4>
-                    <a href="#" class="product__link">
-                        Ver produto
-                    </a>
-                </div>
-                <div class="card__content">
-                    <img src="./assets/images/StarWars/Soldier.png" alt="">
-                    <h3>Produto XYZ</h3>
-                    <h4 class="card__preco">R$ 60,00</h4>
-                    <a href="#" class="product__link">
-                        Ver produto
-                    </a>
-                </div>
-                <div class="card__content">
-                    <img src="./assets/images/StarWars/Vinte.png" alt="">
-                    <h3>Produto XYZ</h3>
-                    <h4 class="card__preco">R$ 60,00</h4>
-                    <a href="#" class="product__link">
-                        Ver produto
-                    </a>
-                </div>
+            </div>
+
+            <div class="cards">
+                <table class="card__table">
+                    <tbody class="card__container">
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/StarWars/Caneca.png" alt="Caneca">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/StarWars/Darth.png" alt="Darth">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/StarWars/Vinte.png" alt="Vinte">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/StarWars/Soldier.png" alt="Soldier">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/StarWars/BBVinte.png" alt="BB">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/StarWars/Boss.png" alt="Boss">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div class="product__header">
-                <h2 class="product__category">Star Wars</h2>
-                <a href="#" class="product__link">
-                    Ver Tudo
-                    <img src="./Banner/assets/images/Seta.png" alt="">
-                </a>
-            </div>
-            <div class="card__container">
-                <div class="card__content">
-                    <img src="./assets/images/Consoles/controle.png" alt="">
-                    <h3>Produto XYZ</h3>
-                    <h4 class="card__preco">R$ 60,00</h4>
+                <div class="product__container">
+                    <h1 class="product__category">
+                        Consoles
+                    </h1>
                     <a href="#" class="product__link">
-                        Ver produto
-                    </a>
-                </div>
-                <div class="card__content">
-                    <img src="./assets/images/Consoles/console.png" alt="">
-                    <h3>Produto XYZ</h3>
-                    <h4 class="card__preco">R$ 60,00</h4>
-                    <a href="#" class="product__link">
-                        Ver produto
-                    </a>
-                </div>
-                <div class="card__content">
-                    <img src="./assets/images/Consoles/nitendo.png" alt="">
-                    <h3>Produto XYZ</h3>
-                    <h4 class="card__preco">R$ 60,00</h4>
-                    <a href="#" class="product__link">
-                        Ver produto
-                    </a>
-                </div>
-                <div class="card__content">
-                    <img src="./assets/images//Consoles/controles.png" alt="">
-                    <h3>produto XYZ</h3>
-                    <h4 class="card__preco">R$ 60,00</h4>
-                    <a href="#" class="product__link">
-                        Ver produto
+                        Ver Tudo
+                        <img src="./Banner/assets/images/Seta.png" alt="">
                     </a>
                 </div>
             </div>
-
+            <div class="cards">
+                <table class="card__table">
+                    <tbody class="card__container">
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/Consoles/controle.png" alt="Caneca">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/Consoles/console.png" alt="Darth">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/Consoles/nitendo.png" alt="Vinte">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/Consoles/controles.png" alt="Soldier">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/Consoles/Cube.png" alt="BB">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/Consoles/GameBoy.png" alt="Boss">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
             <div class="product__header">
-                <h2 class="product__category">Diversos</h2>
-                <a href="#" class="product__link">
-                    Ver Tudo
-                    <img src="./Banner/assets/images/Seta.png" alt="">
-                </a>
+                <div class="product__container">
+                    <h1 class="product__category">
+                        Diversos
+                    </h1>
+                    <a href="#" class="product__link">
+                        Ver Tudo
+                        <img src="./Banner/assets/images/Seta.png" alt="">
+                    </a>
+                </div>
             </div>
-            <div class="card__container">
-                <div class="card__content">
-                    <img src="./assets/images/Diversos/atari.png" alt="">
-                    <h3>Produto XYZ</h3>
-                    <h4 class="card__preco">R$ 60,00</h4>
-                    <a href="#" class="product__link">
-                        Ver produto
-                    </a>
-                </div>
-                <div class="card__content">
-                    <img src="./assets/images/Diversos/snes.png" alt="">
-                    <h3>Produto XYZ</h3>
-                    <h4 class="card__preco">R$ 60,00</h4>
-                    <a href="#" class="product__link">
-                        Ver produto
-                    </a>
-                </div>
-                <div class="card__content">
-                    <img src="./assets/images/Diversos/sonic.png" alt="">
-                    <h3>Produto XYZ</h3>
-                    <h4 class="card__preco">R$ 60,00</h4>
-                    <a href="#" class="product__link">
-                        Ver produto
-                    </a>
-                </div>
-                <div class="card__content">
-                    <img src="./assets/images/Diversos/relogio.png" alt="">
-                    <h3>Produto XYZ</h3>
-                    <h4 class="card__preco">R$ 60,00</h4>
-                    <a href="#" class="product__link">
-                        Ver produto
-                    </a>
-                </div>
+            <div class="cards">
+                <table class="card__table">
+                    <tbody class="card__container">
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/Diversos/atari.png" alt="Caneca">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/Diversos/snes.png" alt="Darth">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/Diversos/sonic.png" alt="Vinte">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/Diversos/relogio.png" alt="Soldier">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/Diversos/vr.png" alt="BB">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                        <tr class="card__row">
+                            <td class="card__content">
+                                <img src="./assets/images/Diversos/pikachu.png" alt="Boss">
+                                <h3>Produto XYZ</h3>
+                                <h4 class="card__preco">R$ 60,00</h4>
+                                <a href="#" class="product__link">
+                                    Ver produto
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
         </section>
@@ -213,27 +327,30 @@
         <section class="alurageek">
             <div class="header__logo">
                 <img class="header__alurageek" src="./Header/assets/images/gamepad.png" alt="Game Pad">
-                <img src="./Header/assets/images/alura.png" alt="Alura">
-                <img src="./Header/assets/images/geek.png" alt="Geek">
+                <img class="header__alura" src="./Header/assets/images/alura.png" alt="Alura">
+                <img class="header__alura" src="./Header/assets/images/geek.png" alt="Geek">
             </div>
-            <a href="" class="alurageek__links">
-                <h1 class="alurageek__link">Quem somos nós</h1>
-            </a>
-            <a href="" class="alurageek__links">
-                <h1 class="alurageek__link">Politica de privacidade</h1>
-            </a>
-            <a href="" class="alurageek__links">
-                <h1 class="alurageek__link">Programa fidelidade</h1>
-            </a>
-            <a href="" class="alurageek__links">
-                <h1 class="alurageek__link">Nossas lojas</h1>
-            </a>
-            <a href="" class="alurageek__links">
-                <h1 class="alurageek__link">Quero ser franqueado</h1>
-            </a>
-            <a href="" class="alurageek__links">
-                <h1 class="alurageek__link">Anuncie aqui</h1>
-            </a>
+            <div class="alurageek__about">
+                <a href="" class="alurageek__links">
+                    <h1 class="alurageek__link">Quem somos nós</h1>
+                </a>
+                <a href="" class="alurageek__links">
+                    <h1 class="alurageek__link">Politica de privacidade</h1>
+                </a>
+                <a href="" class="alurageek__links">
+                    <h1 class="alurageek__link">Programa fidelidade</h1>
+                </a>
+                <a href="" class="alurageek__links">
+                    <h1 class="alurageek__link">Nossas lojas</h1>
+                </a>
+                <a href="" class="alurageek__links">
+                    <h1 class="alurageek__link">Quero ser franqueado</h1>
+                </a>
+                <a href="" class="alurageek__links">
+                    <h1 class="alurageek__link">Anuncie aqui</h1>
+                </a>
+    
+            </div>
             <form class="contact">
                 <label class="contact__title">
                     Fale conosco

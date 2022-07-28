@@ -13,3 +13,14 @@
   color: #464646;
   margin-top: 8px;
 }
+
+
+@media only screen and (min-width: 760px) {
+  .card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8px 1px;
+  }
+}
