@@ -1,6 +1,16 @@
 .banner__title {
   padding-top: 161px;
   font-weight: 700;
-  font-size: 52px;
-  color: #ffffff;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+@media only screen and (min-width: 640px) {
+  .banner__title {
+    padding-top: 161px;
+    font-weight: 700;
+    font-size: 52px;
+    color: #ffffff;
+  }
 }

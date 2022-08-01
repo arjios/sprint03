@@ -1,11 +1,9 @@
-.alurageek {
-  background: #EAF2FD;
+.alurageek__content {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  padding: 8px;
-  width: 100%;
+  padding: 64px;
+
 }
 
 @media only screen and (min-width: 760px) {
@@ -19,3 +17,12 @@
   }
 }
 
+@media only screen and (min-width: 640px) {
+  .alurageek__content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 1440px;
+  }
+}

@@ -1,0 +1,9 @@
+.insert__button {
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+  width: 328px;
+  height: 51px;
+  background: #2a7ae4;
+}

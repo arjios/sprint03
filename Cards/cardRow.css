@@ -9,7 +9,22 @@
 }
 
 @media only screen and (max-width: 360px) {
-    .card__row {
-      padding: 2px;
-    }
+  .card__row {
+    padding: 2px;
   }
+}
+
+@media only screen and (max-width: 760px) {
+  tr:nth-child(5) {
+    display: none;
+  }
+  tr:nth-child(6) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .products {
+    padding: 8px;
+  }
+}

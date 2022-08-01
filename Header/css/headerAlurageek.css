@@ -7,6 +7,15 @@
 
 @media only screen and (min-width: 640px) {
   .header__alurageek {
+    height: 16px;
+    margin-left: 16px;
+    margin-right: 8px;
+    width: 22px;
+  }
+}
+
+@media only screen and (min-width: 860px) {
+  .header__alurageek {
     height: 29px;
     width: 40px;
   }

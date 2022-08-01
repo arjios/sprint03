@@ -1,0 +1,28 @@
+.alurageek__container {
+  background: #EAF2FD;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 16px;
+  gap: 16px;
+  width: 100%;
+  background: #eaf2fd;
+}
+
+@media only screen and (min-width: 640px) {
+  .alurageek__container {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  .alurageek__container {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background: #EAF2FD;
+  }
+}

@@ -1,4 +1,7 @@
 .contact__input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   border: none;
   height: 30px;
   background-color: #fff;

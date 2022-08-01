@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 16px 2px;
+  padding-top: 16px;
 }
 
 .card__content h3 {
