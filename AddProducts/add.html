@@ -70,15 +70,15 @@
 
         <section class="session__container">
             <div class="session__content">
-                <form class="session__form">
+                <form class="session__form" data-form>
                     <label class="contact__title">
                         Adicionar novo produto
                     </label>
-                        <input class="contact__input" id="url" placeholder="URL do Produto" type="url"/>
-                        <input class="contact__input" id="category" placeholder="Categoria" type="text"/>
-                        <input class="contact__input" id="name" placeholder="Nome do produto" type="text"/>
-                        <input class="contact__input" id="price" placeholder="Preço" type="text"/>
-                        <input class="contact__input" id="description" placeholder="Descrição" type="text"/>
+                        <input class="contact__input" id="url" placeholder="URL do Produto" type="url" required data-url/>
+                        <input class="contact__input" id="category" placeholder="Categoria" type="text" required data-category/>
+                        <input class="contact__input" id="name" placeholder="Nome do produto" type="text" required data-name/>
+                        <input class="contact__input" id="price" placeholder="Preço" type="text" required data-price/>
+                        <input class="contact__input" id="description" placeholder="Descrição" type="text"required data-description/>
                         <button>
                         </button>
                         <button type="submit" class="insert__button">
